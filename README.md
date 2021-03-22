@@ -9,11 +9,15 @@ Der Artikel hat mich nun inspiriert, zu versuchen, die LinAXEpad-Software in ein
 
 Die beiden Skript-Dateien 'xstartup' und 'entrypoint.sh' habe ich entsprechend meinem Docker angepasst. Mit dem Kommando 
 
+````
 docker build -t linaxepad . 
+````
 
 kann dann das Docker-Image mit dem Namen 'linaxepad' gebaut werden. Mittels des Kommandos 
 
+````
 docker run -p 5900:5900 -p 5901:5901 --name linaxepad -v /dev:/dev --privileged -v ${HOME}/workspace:/root/workspace -d linaxepad 
+````
 
 kann der Docker gestartet werden. Das Verzeichnis ${HOME}/workspace muss der eigenen Umgebung angepasst werden. Es dient als Arbeitsverzeichnis und der Speicherung der eigenen Programmdateien. Dieses Verzeichnis wird in den Docker beim Starten gemounted.
 Im VNC-Client 'Remmina' habe ich mir eine Verbindung, localhost:5901, Password: linaxepad, eingerichtet und kann nun auch unter Linux mittels 'LinAXEpad' meinen PICAXE 08M2 programmieren."
