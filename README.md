@@ -1,7 +1,7 @@
 # Docker-LinAXEpad
 PICAXE unter Ubuntu 20.04
 
-Make-Leser Udo Adel hatte beim Lesen unseres Docker-Artikel folgende Idee:
+Make-Leser Udo Adel hatte beim Lesen unseres Docker-Artikel in Ausgabe 1/21 folgende Idee:
 
 "Beim Lesen ist mir ein älteres Problem in den Sinn gekommen. Ich hatte versucht, für den PICAXE 08M2 aus dem Sonderheft 'PICAXE SPEZIAL' von 2020, die Linux-basierte AXEPad-Software 'LinAXEpad' auf meinem Ubuntu 20.04 System zu installieren, was aufgrund der notwendigen alten 32-bit-Bibliotheken misslang und zu einem instabilen System führte. Nach der Neuinstallation von Ubuntu habe ich dann eine VM mit einem alten Windows-XP-Image für die Programmierung des 08M2 benutzen müssen.
 
